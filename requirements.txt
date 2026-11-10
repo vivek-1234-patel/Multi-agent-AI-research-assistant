@@ -1,0 +1,28 @@
+# Core LLM + agent framework
+langchain>=0.3
+langchain-core>=0.3
+langchain-google-genai>=2.0
+langgraph>=0.2
+
+# Tools / APIs
+langchain-tavily
+tavily-python
+requests
+
+# Backend server (for React to talk to)
+fastapi
+uvicorn[standard]
+pydantic>=2
+
+# Config / utilities
+python-dotenv
+
+# Optional: Streamlit UI (if you still want it)
+streamlit
+
+# Web scraping
+beautifulsoup4
+requests
+lxml
+httpx
+playwright
